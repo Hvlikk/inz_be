@@ -16,7 +16,7 @@ function updateChangelog() {
       const nextLine = lines[headerIndex + 2] || '';
 
       if (nextLine.trim() === '' || nextLine.startsWith('###') || nextLine.startsWith('##')) {
-        lines.splice(headerIndex + 2, 0, '* **version bump only**');
+        lines.splice(headerIndex + 2, 0, '* **version bump only**' + nextLine);
         fs.writeFileSync("CHANGELOG.md", lines.join('\n'));
       }
     }
@@ -32,6 +32,8 @@ try {
   }
 
   execSync("git checkout main && git pull --rebase origin main", { stdio: "inherit" });
+
+  execSync("git fetch --tags", { stdio: "inherit" });
 
   try {
     execSync("git stash pop || echo 'No stash to pop'", { stdio: "inherit" });

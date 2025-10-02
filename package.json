@@ -1,6 +1,10 @@
 {
   "name": "inz-be",
+<<<<<<< Updated upstream
   "version": "0.0.3-alpha.1",
+=======
+  "version": "0.0.3-alpha.3",
+>>>>>>> Stashed changes
   "description": "",
   "author": "",
   "private": true,
