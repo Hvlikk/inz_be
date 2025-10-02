@@ -16,7 +16,7 @@ function updateChangelog() {
       const nextLine = lines[headerIndex + 2] || '';
 
       if (nextLine.trim() === '' || nextLine.startsWith('###') || nextLine.startsWith('##')) {
-        lines.splice(headerIndex + 2, 0, '* **version bump only**' + nextLine);
+        lines.splice(headerIndex + 2, 0, '* **version bump only**', '');
         fs.writeFileSync("CHANGELOG.md", lines.join('\n'));
       }
     }
