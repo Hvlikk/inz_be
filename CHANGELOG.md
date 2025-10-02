@@ -2,19 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-<<<<<<< Updated upstream
-=======
 ### [0.0.3-alpha.3](https://github.com/Hvlikk/inz_be/compare/v0.0.3-alpha.2...v0.0.3-alpha.3) (2025-10-02)
 
-* **version bump only**### [0.0.3-alpha.2](https://github.com/Hvlikk/inz_be/compare/v0.0.3-alpha.1...v0.0.3-alpha.2) (2025-10-02)
+* **version bump only**
+
+
 ### [0.0.3-alpha.2](https://github.com/Hvlikk/inz_be/compare/v0.0.3-alpha.1...v0.0.3-alpha.2) (2025-10-02)
 
-* **version bump only**### 
-
-### [0.0.3-alpha.1](https://github.com/Hvlikk/inz_be/compare/v0.0.3-alpha.0...v0.0.3-alpha.1) (2025-10-02)
+* **version bump only**###
 
 
->>>>>>> Stashed changes
 ### [0.0.3-alpha.1](https://github.com/Hvlikk/inz_be/compare/v0.0.3-alpha.0...v0.0.3-alpha.1) (2025-10-02)
 
 * **version bump only**
